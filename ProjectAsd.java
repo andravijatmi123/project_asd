@@ -8,6 +8,20 @@ public class ProjectAsd {
         int maksBaris = 1000;
         int barisAwal = 0;
         int batasKarakterNama = 10;
+
+        while (scanner.hasNextLine()) {
+            if (barisAwal >= maksBaris) {
+                System.out.println("Peringatan: Jumlah maksimum baris input telah tercapai.");
+                break;
+            }
+
+            String line = scanner.nextLine();
+            barisAwal ++;
+
+            if (line.trim().isEmpty()) {
+                break;
+            }
+        }
     }
     
 }

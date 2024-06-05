@@ -11,18 +11,22 @@ Setiap baris input terdiri dari dua buah nama, nama dari si pembunuh dan nama da
 Baris pertama menampilkan teks “DAFTAR PENCARIAN ORANG KASUS PEMBUNUHAN”. Baris berikutnya berisikan nama-nama pembunuh diikuti dengan jumlah orang yang telah ia bunuh. Daftar nama pembunuh harus ditampilkan terurut berdasarkan abjad. Jika seorang pembunuh juga terbunuh, dia tidak akan muncul dalam daftar.
 
 ## Contoh Input
-Surya Mala
-Mala Rio
-Brian Anni
-Ella Myra
-Jima Aril
-Brian Jima
+- Surya Mala
+- Mala Rio
+- Brian Anni
+- Ella Myra
+- Jima Aril
+- Brian Jima
 
 ## Contoh Output
 DAFTAR PENCARIAN ORANG KASUS PEMBUNUHAN
-Brian 2
-Ela 1
-Surya 1
+- Brian 2
+- Ela 1
+- Surya 1
 
 # Flowchart
+Menjelaskan langkah-langkah kerja dalam proses program ini.
 
+
+# Big O Notation
+Menjelaskan tentang berapa lama suatu algoritma berjalan (kompleksitas waktu) dalam program ini.

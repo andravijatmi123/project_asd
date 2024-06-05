@@ -5,7 +5,7 @@ public class ProjectAsd {
         Map<String, Integer> pembunuhMap = new HashMap<>();
         Set<String> kkorbanSet = new HashSet<>();
         
-        int maksBaris = 999;
+        int maksBaris = 1000;
         int barisAwal = 0;
         int batasKarakterNama = 10;
     }

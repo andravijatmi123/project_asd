@@ -24,6 +24,16 @@ public class ProjectAsd {
             String[] names = line.split(" ");
             String pembunuh = names[0];
             String korban = names[1];
+
+            if (pembunuh.length() > batasKarakterNama || korban.length() > batasKarakterNama) {
+                System.out.println("Nama tidak boleh melebihi " + batasKarakterNama + " karakter.");
+                continue; 
+            }
+            if (Character.isLowerCase(pembunuh.charAt(0)) || Character.isLowerCase(korban.charAt(0))) {
+                System.out.println("Harus menggunakan huruf kapital di awal karakter");
+                continue;
+            }
+            
         }
     }
     

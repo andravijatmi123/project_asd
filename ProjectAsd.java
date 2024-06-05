@@ -21,6 +21,9 @@ public class ProjectAsd {
             if (line.trim().isEmpty()) {
                 break;
             }
+            String[] names = line.split(" ");
+            String pembunuh = names[0];
+            String korban = names[1];
         }
     }
     

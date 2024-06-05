@@ -39,6 +39,11 @@ public class ProjectAsd {
             }
         }
         scanner.close();
+
+         for (String korban : korbanSet) {
+            pembunuhMap.remove(korban);
+        }
+
     }
     
 }

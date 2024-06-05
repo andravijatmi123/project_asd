@@ -1,4 +1,3 @@
-package projectasd;
 import java.util.*;
 public class ProjectAsd {
     public static void main(String[] args) {

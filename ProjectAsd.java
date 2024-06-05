@@ -33,8 +33,12 @@ public class ProjectAsd {
                 System.out.println("Harus menggunakan huruf kapital di awal karakter");
                 continue;
             }
-            
+            if (!korbanSet.contains(korban)) {
+                pembunuhMap.put(pembunuh, pembunuhMap.getOrDefault(pembunuh, 0) + 1);
+                korbanSet.add(korban);
+            }
         }
+        scanner.close();
     }
     
 }

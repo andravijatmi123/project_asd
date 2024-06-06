@@ -49,8 +49,6 @@ public class ProjectAsd {
         System.out.println("DAFTAR PENCARIAN ORANG KASUS PEMBUNUHAN");
         for (String pembunuh : daftarPembunuh) {
             System.out.println(pembunuh + " " + pembunuhMap.get(pembunuh));
-        }
-
+        }
     }
-    
 }

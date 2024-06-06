@@ -3,7 +3,7 @@ public class ProjectAsd {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Map<String, Integer> pembunuhMap = new HashMap<>();
-        Set<String> kkorbanSet = new HashSet<>();
+        Set<String> korbanSet = new HashSet<>();
         
         int maksBaris = 1000;
         int barisAwal = 0;
